@@ -1,0 +1,12 @@
+{
+  "validEmail": "test@example.com",
+  "validPassword": "",
+  "invalidEmail": "invalid@example.com",
+  "malformedEmail": "notanemail",
+  "routes": {
+    "login": "/login",
+    "dashboard": "/dashboard",
+    "home": "/home",
+    "logout": "/logout"
+  }
+}

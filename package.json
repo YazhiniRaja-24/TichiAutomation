@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report reports",
+    "test:login": "npx playwright test tests/login",
+    "test:exploration": "npx playwright test tests/exploration",
+    "fix": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "dotenv": "^17.4.2"
+  }
+}

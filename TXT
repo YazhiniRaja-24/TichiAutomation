@@ -1,0 +1,21 @@
+Fix the failing test TC03 - Empty email field shows validation error.
+
+Current issue:
+The test fails in the final Playwright HTML report.
+
+Expected behavior:
+When Continue is clicked with an empty email field, the app should not move to password step.
+The test should pass if:
+1. The email input is still visible, OR
+2. The URL remains on /login, OR
+3. A validation/error message is visible.
+
+Do not make the test too strict.
+Use defensive assertions suitable for this real app.
+
+After fixing:
+- Run npm test
+- Ensure Failed = 0
+- Ensure Flaky = 0
+- Generate fresh HTML report
+D:\TichiAutomation\TXT
